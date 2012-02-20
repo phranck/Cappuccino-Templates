@@ -19,7 +19,7 @@ I've found some useful hints of the Xcode template structure on these sites:
 Installation
 ============
 
-Via _git clone
+Via git clone
 --------------
 
 	cd ~/Library/Developer/Xcode/Templates/File\ Templates
@@ -27,7 +27,7 @@ Via _git clone
 
 That's it.
 
-Via _ZIP-file
+Via ZIP-file
 -------------
 
 - Download & extract the ZIP archive
