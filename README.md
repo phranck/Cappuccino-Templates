@@ -6,8 +6,8 @@ It is a first version, maybe incomplete...
 
 **Feel free to use it, share it & extend it!**
 
-Note
-----
+Notes
+-----
 These templates & this description is related to **Xcode version >=4.3**! It's the first version that comes with a single bundle installation instead of a */Developer/* installation folder of previous Xcode versions.
 
 Links & Resources
@@ -41,3 +41,5 @@ Via Package Installer
 ---------------------
 
 You can also download a [Cappuccino File Template Installer](https://github.com/downloads/phranck/Cappuccino-Templates-for-Xcode-4.x/Cappuccino%20File%20Templates%20For%20Xcode.pkg) to install the complete package automatically. Just double click the downloaded package and follow the instructions, that's all.
+
+**Hint**: At the moment the installer is only able to install all the templates in the *'/Library'* folder of the system volume. Installation under the users home consequently fails and I have no idea about the reason! Maybe there is someone experienced out there to solve this problem? (-:)
