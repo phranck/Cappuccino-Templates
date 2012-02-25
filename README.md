@@ -2,19 +2,21 @@ Cappuccino file template set for Xcode 4.x
 ==========================================
 
 This set of file templates is for those guys who want to use Xcode for coding Cappuccino web apps (instead of the missing support for syntax coloring). 
-It is a first version, maybe incomplete...
+It installes templates for creating new Cappuccino classes and categories. Cappuccino project templates are **NOT** supported at the moment!
 
 **Feel free to use it, share it & extend it!**
 
+
 Notes
 -----
-These templates & this description is related to **Xcode version >=4.3**! It's the first version that comes with a single bundle installation instead of a */Developer/* installation folder of previous Xcode versions.
+These templates & this description is related to **Xcode version >=4.3**! It's the first version that comes with a single bundle installation instead of a */Developer/* installation folder of previous Xcode versions. I have it testet **ONLY** on Xcode 4.3!
 
 Links & Resources
 -----------------
 I've found some useful hints of the Xcode template structure on these sites:
 
 - [Creating Custom Xcode 4 File Templates](http://meandmark.com/blog/2011/11/creating-custom-xcode-4-file-templates/)
+
 
 Installation
 ============
@@ -27,6 +29,7 @@ Via git clone
 
 That's it.
 
+
 Via ZIP-file
 -------------
 
@@ -36,6 +39,7 @@ Via ZIP-file
 - Copy the two folders *Objective-J category.xctemplate* and *Objective-J class.xctemplate* into the newly created *Cappuccino* folder.
 
 You're done.
+
 
 Via Package Installer
 ---------------------
