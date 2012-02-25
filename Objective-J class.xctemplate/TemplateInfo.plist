@@ -36,7 +36,7 @@
 			<key>Description</key>
 			<string>What class to subclass in the new file</string>
 			<key>FallbackHeader</key>
-			<string>@import &lt;Foundation/CPObject.j&gt;</string>
+			<string>@import &lt;Foundation/Foundation.j&gt;</string>
 			<key>Identifier</key>
 			<string>cappuccinoSubclass</string>
 			<key>Name</key>

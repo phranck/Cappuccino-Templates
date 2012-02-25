@@ -1,8 +1,7 @@
 Cappuccino file template set for Xcode 4.x
 ==========================================
 
-This set of file templates is for those guys who want to use Xcode for coding Cappuccino web apps (instead of the missing support for syntax coloring). 
-It installes templates for creating new Cappuccino classes and categories. Cappuccino project templates are **NOT** supported at the moment!
+This file template set is for those guys who want to use Xcode for coding Cappuccino web apps (instead of the missing support for syntax coloring). It installs templates for creating new Cappuccino classes and categories. Cappuccino project templates are **NOT** supported at the moment!
 
 **Feel free to use it, share it & extend it!**
 
@@ -46,4 +45,4 @@ Via Package Installer
 
 You can also download a [Cappuccino File Template Installer](https://github.com/downloads/phranck/Cappuccino-Templates-for-Xcode-4.x/Cappuccino%20File%20Templates%20For%20Xcode.pkg) to install the complete package automatically. Just double click the downloaded package and follow the instructions, that's all.
 
-**Hint**: At the moment the installer is only able to install all the templates in the *'/Library'* folder of the system volume. Installation under the users home consequently fails and I have no idea about the reason! Maybe there is someone experienced out there to solve this problem? (-:)
+All template files will be installed into the users "*~/Library/Developer/Xcode/Templates/File Templates*" folder.

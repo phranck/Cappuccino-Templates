@@ -10,6 +10,10 @@ ___IMPORTHEADER_cappuccinoSubclass___
 
 @implementation ___FILEBASENAMEASIDENTIFIER___ : ___VARIABLE_cappuccinoSubclass___
 
+
+#pragma mark -
+#pragma mark Initialization
+
 - (id)initWithCibName:(CPString)aCibNameOrNil bundle:(CPBundle)aCibBundleOrNil
 {
   self = [super initWithNibName:aCibNameOrNil bundle:aCibBundleOrNil];
@@ -21,5 +25,21 @@ ___IMPORTHEADER_cappuccinoSubclass___
   
   return self;
 }
+
+
+
+#pragma mark -
+#pragma mark Actions
+
+
+
+#pragma mark -
+#pragma mark Delegates
+
+
+
+#pragma mark -
+#pragma mark Helper
+
 
 @end
