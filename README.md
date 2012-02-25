@@ -43,6 +43,6 @@ You're done.
 Via Package Installer
 ---------------------
 
-You can also download a [Cappuccino File Template Installer](https://github.com/downloads/phranck/Cappuccino-Templates-for-Xcode-4.x/Cappuccino%20File%20Templates%20For%20Xcode.pkg) to install the complete package automatically. Just double click the downloaded package and follow the instructions, that's all.
+You can also download a [Cappuccino File Template Installer](https://github.com/phranck/Cappuccino-Templates-for-Xcode-4.x/downloads) to install the complete package automatically. Just double click the downloaded package and follow the instructions, that's all.
 
 All template files will be installed into the users "*~/Library/Developer/Xcode/Templates/File Templates*" folder.
