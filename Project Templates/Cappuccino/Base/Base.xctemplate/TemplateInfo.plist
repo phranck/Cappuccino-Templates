@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Identifier</key>
+	<string>at.programmschmiede.cappuccino.template.project.base</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Product Name</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Description</key>
+			<string>Your new product&apos;s name</string>
+			<key>EmptyReplacement</key>
+			<string>ProductName</string>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>bundleIdentifierPrefix</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Company Identifier</string>
+			<key>Description</key>
+			<string>Your company&apos;s bundle identifier prefix</string>
+			<key>EmptyReplacement</key>
+			<string>com.yourcompany</string>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>bundleIdentifier</string>
+			<key>Name</key>
+			<string>Bundle Identifier</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Description</key>
+			<string>Your new product&apos;s bundle identifier</string>
+			<key>Default</key>
+			<string>___VARIABLE_bundleIdentifierPrefix:bundleIdentifier___.___VARIABLE_productName:RFC1034Identifier___</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+	</array>
+	<key>Project</key>
+	<dict>
+		<key>SharedSettings</key>
+		<dict>
+			<key>ALWAYS_SEARCH_USER_PATHS</key>
+			<string>YES</string>
+		</dict>
+		<key>Configurations</key>
+		<dict></dict>
+	</dict>
+	<key>Targets</key>
+	<array>
+		<dict></dict>
+	</array>
+	<key>Definitions</key>
+	<dict>
+		<key>*:comments</key>
+		<string>/**
+ *	___FILENAME___
+ *	___PACKAGENAME___
+ *
+ *	Created by ___FULLUSERNAME___ on ___DATE___.
+ *	Copyright (c) ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
+ */
+</string>
+		<key>*:import:*</key>
+		<string>@import &quot;___*___&quot;
+</string>
+		<key>*:*:importFoundation</key>
+		<string>@import &lt;Foundation/CPObject.j&gt;
+</string>
+	</dict>
+</dict>
+</plist>
