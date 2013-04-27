@@ -40,6 +40,10 @@ You can also download a [Cappuccino File Template Installer](https://dl.dropboxu
 
 All template files will be installed into the users `~/Library/Developer/Xcode/Templates/File Templates` folder.
 
+
+###Via Package Manager
+This is really the easiest way to install the templates (and all the other plugins or color schemes too). There is cool Package Manager project on Github called [Alcatraz](https://github.com/mneorr/Alcatraz). Just clone it, compile it and restart Xcode.
+
 --
 
 #Conclusion
