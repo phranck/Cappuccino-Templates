@@ -21,7 +21,7 @@ This software is published under the [MIT License](http://cocoanaut.mit-license.
 ###Via git clone
 
 	cd ~/Library/Developer/Xcode/Templates/File\ Templates
-	git clone git://github.com/phranck/Cappuccino-Templates-for-Xcode-4.x.git Cappuccino
+	git clone https://github.com/phranck/Cappuccino-Templates.git Cappuccino
 
 That's it.
 
