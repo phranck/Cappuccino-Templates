@@ -1,10 +1,10 @@
-#Cappuccino file template set for Xcode 4.x
+#Cappuccino file template set for Xcode
 
-This file template set is for those guys who want to use Xcode for coding Cappuccino web apps (instead of the missing support for syntax coloring). It installs templates for creating new Cappuccino classes and categories. Cappuccino project templates are **NOT** supported at the moment!
+This file template set is for those of you who want to use Xcode when coding Cappuccino web apps (despite the missing support for syntax coloring). It installs templates for creating new Cappuccino classes and categories. Cappuccino project templates are **NOT** supported at the moment!
 
 
-###Notes
-These templates & this description is related to **Xcode version >=4.3**! It's the first version that comes with a single bundle installation instead of a */Developer/* installation folder of previous Xcode versions. I have it testet on Xcode 4.3/4.4!
+###Compatibility
+These templates has been tested from Xcode 4.x to Xcode 6!
 
 ###Links & Resources
 I've found some useful hints of the Xcode template structure on these sites:
@@ -42,7 +42,7 @@ All template files will be installed into the users `~/Library/Developer/Xcode/T
 
 
 ###Via Package Manager
-This is really the easiest way to install the templates (and all the other plugins or color schemes too). There is cool Package Manager project on Github called [Alcatraz](https://github.com/mneorr/Alcatraz). Just clone it, compile it and restart Xcode.
+This is really the easiest way to install the templates (and all the other plugins or color schemes too). There is a cool Package Manager project on Github called [Alcatraz](https://github.com/mneorr/Alcatraz). Just clone it, compile it and restart Xcode.
 
 --
 
